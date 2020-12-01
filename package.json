@@ -1,0 +1,32 @@
+{
+  "name": "database",
+  "version": "1.0.0",
+  "description": "Kidadmin database",
+  "main": " app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "server": "nodemon app.js",
+    "kinder-admin": "npm run start --prefix kinder-admin",
+    "dev": "concurrently \"npm run server\" \"npm run kinder-admin\""
+  },
+  "keywords": [
+    "admin",
+    "database"
+  ],
+  "author": "Marutyan Alex",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/icons": "^4.9.1",
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "config": "^3.3.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "mongoose": "^5.10.11",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.6",
+    "react-infinite-scroll-component": "^5.1.0"
+  }
+}

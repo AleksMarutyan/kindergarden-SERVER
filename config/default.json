@@ -1,0 +1,4 @@
+{
+    "port" : 5000,
+    "mongoUri": "mongodb+srv://Aleks:aleks@cluster0.4itd8.mongodb.net/kinder-admin?retryWrites=true&w=majority"
+}
